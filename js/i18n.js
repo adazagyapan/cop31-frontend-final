@@ -293,10 +293,10 @@ const TEXT = {
   cap_about_cop:  { en: "World leaders at the Belém Climate Summit ahead of COP30, Brazil, November 2025. Photo:",
                   tr: "COP30 öncesi Belém İklim Zirvesi'nde dünya liderleri, Brezilya, Kasım 2025. Fotoğraf:" },
 
-  alt_about_team: { en: "IDD ORG members at a UN climate conference",
-                      tr: "Bir BM iklim konferansında IDD ORG üyeleri" },
-  cap_about_team: { en: "IDD ORG at COP29. Photo: IDD ORG",
-                      tr: "COP29'da IDD ORG. Fotoğraf: IDD ORG" },
+  alt_about_team: { en: "IDD ORG members at a COP31 preparation meeting",
+                      tr: "Bir COP31 hazırlık toplantısında IDD ORG üyeleri" },
+  cap_about_team: { en: "IDD ORG members at a COP31 preparation meeting. Photo: IDD ORG",
+                      tr: "Bir COP31 hazırlık toplantısında IDD ORG üyeleri. Fotoğraf: IDD ORG" },
 
   alt_cul_antalya:{ en: "The historic Kaleiçi old town in Antalya",
                       tr: "Antalya'daki tarihi Kaleiçi" },
