@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COP31 Türkiye App</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#17401b">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/icon-apple-180.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="COP31 TR">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader"></header>
+
+  <main class="content-wrap">
+    <h1 data-i18n="culture_title"></h1>
+    <p class="lead" data-i18n="culture_lead"></p>
+
+    <h2 data-i18n="culture_antalya_h"></h2>
+    <p data-i18n="culture_antalya_p"></p>
+
+    <figure class="photo photo-single">
+      <img src="img/culture-antalya.jpg" data-i18n-alt="alt_cul_antalya" loading="lazy" width="1500" height="1000"
+           onerror="this.closest('.photo').classList.add('is-missing')">
+      <span class="photo-slot"><span data-i18n="img_missing"></span> <code>img/culture-antalya.jpg</code></span>
+      <figcaption>
+        <span data-i18n="cap_cul_antalya"></span>
+        <a href="https://commons.wikimedia.org/w/index.php?curid=92345133" target="_blank" rel="noopener">REHBER0770</a>,
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a> (cropped)
+      </figcaption>
+    </figure>
+
+    <h2 data-i18n="culture_transport_h"></h2>
+    <p data-i18n="culture_transport_p"></p>
+
+    <figure class="photo photo-single">
+      <img src="img/culture-sustain.jpg" data-i18n-alt="alt_cul_sustain" loading="lazy" width="1500" height="1000"
+           onerror="this.closest('.photo').classList.add('is-missing')">
+      <span class="photo-slot"><span data-i18n="img_missing"></span> <code>img/culture-sustain.jpg</code></span>
+      <figcaption>
+        <span data-i18n="cap_cul_sustain"></span>
+        <a href="https://www.flickr.com/photos/sharonhahndarlin/51865814090/" target="_blank" rel="noopener">Sharon Hahn Darlin</a>,
+        <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a> (cropped)
+      </figcaption>
+    </figure>
+
+    <h2 data-i18n="culture_practical_h"></h2>
+    <p data-i18n="culture_practical_p"></p>
+
+    <h2 data-i18n="culture_sustainable_h"></h2>
+    <p data-i18n="culture_sustainable_p"></p>
+
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/pwa.js"></script>
+  <script>
+    applyTranslations();
+    renderHeader("culture");
+  </script>
+
+</body>
+</html>
